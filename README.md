@@ -65,14 +65,8 @@ For more information on the importance of a professional README for your reposit
 
 # 📖 [Set up a "Hello Microverse" project] <a name="about-project"></a>
 
-**[my_project__name]** is "Hello Microverse" project.
-In this Project, I created a html file containing a header with the text "Hello Microverse!" and a css file defining the color of header.
-
-## 🛠 Built With <a name="built-with"></a>
-
-### Tech Stack <a name="tech-stack"></a>
-
-> No complex coding is required for this exercise.
+**[Set up a "Hello Microverse" project]** is simple project.
+In this Project, there is a html file containing a header with the text "Hello Microverse!" and a css file defining the color of header.
 
 <!-- LIVE DEMO -->
 
@@ -92,17 +86,25 @@ To get a local copy up and running, follow these steps.
 
 In order to run this project you need:
 
+- a browser
+- npm
+- node.js
 <!--
 Example command:
 
 ```sh
  gem install rails
 ```
- -->
+
+-->
 
 ### Setup
 
 Clone this repository to your desired folder:
+
+```sh
+git clone https://github.com/kaungkhant0307/hellomicroverse
+```
 
 <!--
 Example commands:
@@ -117,6 +119,14 @@ Example commands:
 
 Install this project with:
 
+```sh
+  cd hellomicroverse
+
+  npm install --save-dev eslint@7.x eslint-config-airbnb@18.x eslint-plugin-import@2.x eslint-plugin-jsx-a11y@6.x eslint-plugin-react@7.x eslint-plugin-react-hooks@4.x @babel/eslint-parser@7.x @babel/core@7.x  @babel/plugin-syntax-jsx@7.x  @babel/preset-react@7.x @babel/preset-react@7.x
+
+  npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x
+```
+
 <!--
 Example command:
 
@@ -130,6 +140,10 @@ Example command:
 
 To run the project, execute the following command:
 
+```
+  npm run start
+```
+
 <!--
 Example command:
 
@@ -142,6 +156,10 @@ Example command:
 
 To run tests, run the following command:
 
+```sh
+  npx stylelint "**/*.{css,scss}" --fix
+```
+
 <!--
 Example command:
 
@@ -150,25 +168,13 @@ Example command:
 ```
 --->
 
-### Deployment
-
-You can deploy this project using:
-
-<!--
-Example:
-
-```sh
-
-```
- -->
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Author1**
+👤 **Kaung Khant**
 
 - GitHub: [@kaungkhant0307](https://github.com/kaungkhant0307)
 
@@ -197,20 +203,6 @@ If you like this project you can contact me anytime.
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 I would like to thank everyone who guided me to finished this Project.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FAQ (optional) -->
-
-## ❓ FAQ (OPTIONAL) <a name="faq"></a>
-
-- **[Question_1]**
-
-  - [Answer_1]
-
-- **[Question_2]**
-
-  - [Answer_2]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
